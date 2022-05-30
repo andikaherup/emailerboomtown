@@ -29,7 +29,7 @@ app.post('/contact', async (req, res) => {
   
     const mailData = {
         from: req.body.email,
-        to: 'info@boomtownads.com',
+        to: 'sales@carblicity.com',
         subject: req.body.subject,
         text: req.body.message || 'No message',
         html: req.body.message || 'No message'
